@@ -15,8 +15,7 @@ public class ActivityEWM extends AppCompatActivity {
         Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         TextView text = findViewById(R.id.txt);
-        TextView text2 = findViewById(R.id.txt2);
         text.setText(bundle.getString("Key"));
-        text2.setText(bundle.getString("Key2"));
+
     }
 }
